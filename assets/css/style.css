@@ -919,13 +919,44 @@ span.feature-review {margin-left: 10px;}
     animation-duration:1s;
 }
 .contact{
-    height: 100vh;
-    width: 100%;
-    background-color:  #f8f9fc;
-    margin: 0;
+    justify-content: center;
     display: flex;
+    height: 80vh;
+    width: 100%;
+    padding: 20px 10px;
+    background-color: #F8F9FD;
 }
-
+.contact .text{
+    height: 100%;
+    width: 50%;
+}
+.contact .text .child{
+    padding: 120px 50px 25px 150px;
+}
+.contact .form{
+    height: 100%;
+    width: 50%;
+    padding: 100px 60px;
+}
+.contact .text .child h1{
+    font-size: 60px;
+}
+.contact .form input{
+    color: #43465d;
+    background-color: #fff;
+    border: #a9a9a9;
+    opacity: 0.6;
+    padding: 5px;
+    font-size: 11px;
+    box-shadow:6px #a9a9a9;
+}
+@media screen and (max-width:1008px){
+    .contact {
+       flex-direction: column;
+       height: 200vh;
+    }
+    
+}
 
 @keyframes example {
     0%   {bottom:0px;}
