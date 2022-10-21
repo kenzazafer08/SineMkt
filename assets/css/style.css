@@ -1021,11 +1021,12 @@ span.feature-review {margin-left: 10px;}
     }
     .contact .form{
         padding: auto;
-        flex-direction: row;
+        
         padding: 50px 30px;
      }
      .contact .text .child{
         padding: 60px 25px 12px 75px;
+
     }
     .feature-content{
         display: grid;
@@ -1033,6 +1034,9 @@ span.feature-review {margin-left: 10px;}
     }
     .acceuil .child p{
         width: 200px;
+    }
+    .contact .form .name{
+        flex-direction: row;
     }
 }
 
